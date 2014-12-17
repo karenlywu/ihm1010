@@ -13,6 +13,7 @@
 		B537B1D31A3A5C0B0089898E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B537B1D21A3A5C0B0089898E /* Images.xcassets */; };
 		B537B1D61A3A5C0B0089898E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537B1D41A3A5C0B0089898E /* LaunchScreen.xib */; };
 		B537B1E21A3A5C0B0089898E /* babamassageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1E11A3A5C0B0089898E /* babamassageTests.swift */; };
+		B537B1EC1A3A64C20089898E /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1EB1A3A64C20089898E /* AppointmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B537B1DB1A3A5C0B0089898E /* babamassageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babamassageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B537B1E01A3A5C0B0089898E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B537B1E11A3A5C0B0089898E /* babamassageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babamassageTests.swift; sourceTree = "<group>"; };
+		B537B1EB1A3A64C20089898E /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B537B1CB1A3A5C0B0089898E /* AppDelegate.swift */,
+				B537B1EB1A3A64C20089898E /* AppointmentViewController.swift */,
 				B537B1CD1A3A5C0B0089898E /* ViewController.swift */,
 				B537B1CF1A3A5C0B0089898E /* Main.storyboard */,
 				B537B1D21A3A5C0B0089898E /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B537B1EC1A3A64C20089898E /* AppointmentViewController.swift in Sources */,
 				B537B1CE1A3A5C0B0089898E /* ViewController.swift in Sources */,
 				B537B1CC1A3A5C0B0089898E /* AppDelegate.swift in Sources */,
 			);
